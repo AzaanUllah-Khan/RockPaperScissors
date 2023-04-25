@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: url("https://wallup.net/wp-content/uploads/2018/09/26/8083-black-texture-748x468.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.score,
+.scoreComp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score h1,
+.scoreComp h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.score span,
+.scoreComp span {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(222, 222, 222);
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.one .options {
+    display: flex;
+    flex-direction: column;
+}
+
+.one .options button {
+    transform: rotate(-90deg);
+    margin-top: 40px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.one .name {
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dashed white;
+}
+
+.one .img {
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+.one .img img {
+    width: 100%;
+}
+
+.one .img span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+#playerOneImage {
+    transform: scaleX(-1);
+}
+
+/* ---- */
+.two {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.two .name {
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px dashed white;
+}
+
+.two .img {
+    width: 100%;
+    border: 1px solid white;
+    position: relative;
+}
+
+.two .img img {
+    width: 100%;
+}
+
+.two .img span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+.upd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.upd input {
+    width: 50%;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.btnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 100px;
+    width: 100%;
+}
+.btnn button{
+    padding: 10px;
+    color: white;
+    background-color: green;
+    transition: all 1s ease;
+}
+.btnn button:hover{
+    transform: rotate(10deg);
+}
+.sideText{
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
